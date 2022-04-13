@@ -1,18 +1,8 @@
 // Routing
-import { Routes, Route, Outlet } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 // Components
+import Navigation from './routes/Navigation/Navigation';
 import Home from './routes/Home/Home';
-
-const Navigation = () => {
-  return (
-    <div>
-      <div>
-        <h1>I AM THE NAVBAR</h1>
-      </div>
-      <Outlet />
-    </div>
-  )
-}
 
 const App = () => {
   return (
